@@ -1,0 +1,1 @@
+cmake -S . -B build-pico2   -DPICO_BOARD=pico2_w   -DCMAKE_TOOLCHAIN_FILE="$PICO_SDK_PATH/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake"
